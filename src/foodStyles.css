@@ -10,10 +10,13 @@ body {
   margin: 8px;
   padding: 8px 16px;
   cursor: pointer;
+  border-radius: 50%;
+  border-color: crimson;
+  background-color:aliceblue;
 }
 
 .buttons button.active {
-  background-color: #4caf50;
+  background-color:blue;
   color: white;
 }
 .container {
