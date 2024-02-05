@@ -148,6 +148,16 @@ export default function App() {
           </button>
         ))}
       </div>
+      {selectedFood ? (
+        <div>
+          <h2>Food Details</h2>
+          <FoodCard card={selectedFood} />
+        </div>
+      ) : (
+        filteredFoods.map((food) => (
+          <FoodCard key={food.id} card={food} onClick={handleFoodClick} />
+        ))
+      )}
     </div>
   );
 }
