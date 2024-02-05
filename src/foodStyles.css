@@ -16,3 +16,18 @@ body {
     background-color: #4caf50;
     color: white;
   }
+  .container {
+    display: inline-flex;
+    padding: 1rem 0;
+    margin-left: 100px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    max-width: 20em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+    
+  }
