@@ -1,4 +1,4 @@
-function FoodCard() {
+function FoodCard({card}) {
     return (
       <div className="container">
         <div className="card" >
