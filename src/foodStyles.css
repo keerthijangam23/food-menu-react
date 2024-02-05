@@ -1,0 +1,18 @@
+body {
+    background-color:aliceblue;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons button {
+    margin: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .buttons button.active {
+    background-color: #4caf50;
+    color: white;
+  }
