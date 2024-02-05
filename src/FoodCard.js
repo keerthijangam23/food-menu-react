@@ -1,4 +1,4 @@
-function FoodCard({card}) {
+function FoodCard({card,onClick}) {
     return (
       <div className="container">
         <div className="card" >
