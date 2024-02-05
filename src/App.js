@@ -128,6 +128,11 @@ export default function App() {
 
   const buttons = ["All", "Breakfast", "Lunch", "Shakes"];
 
+  const handleFilterClick = (button) => {
+    setSelectedCategory(button);
+    setSelectedFood(null); // Clear selected food when a filter is clicked
+  };
+
   return (
     <div className="product-list">
       <h1>Our Menu</h1>
