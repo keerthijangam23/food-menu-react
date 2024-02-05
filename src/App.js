@@ -132,6 +132,9 @@ export default function App() {
     setSelectedCategory(button);
     setSelectedFood(null); // Clear selected food when a filter is clicked
   };
+  const handleFoodClick = (food) => {
+    setSelectedFood(food);
+  };
   const filteredFoods =
     selectedCategory === "All"
       ? foods
