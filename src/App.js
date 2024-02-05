@@ -157,7 +157,7 @@ export default function App() {
       </div>
       {selectedFood ? (
         <div>
-          <h2 >Food Details</h2>
+          <h2>Food Details</h2>
           <FoodCard card={selectedFood} />
         </div>
       ) : (
@@ -165,7 +165,6 @@ export default function App() {
           <FoodCard key={food.id} card={food} onClick={handleFoodClick} />
         ))
       )}
-      
     </div>
   );
 }
