@@ -122,3 +122,8 @@ const foods = [
       }
   
 ];
+
+export default function App(){
+  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedFood, setSelectedFood] = useState(null);
+}
