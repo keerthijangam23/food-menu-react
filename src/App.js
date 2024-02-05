@@ -126,4 +126,6 @@ const foods = [
 export default function App(){
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedFood, setSelectedFood] = useState(null);
+
+  const buttons = ["All", "Breakfast", "Lunch", "Shakes"];
 }
